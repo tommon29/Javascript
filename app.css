@@ -48,7 +48,8 @@ p {
 .grid-item {
     position: relative;
     box-sizing: border-box;
-    width: 100%;
+    width: calc(100% / 3);
+    list-style-type: none;
 }
 
 .grid-item:nth-child(1){
